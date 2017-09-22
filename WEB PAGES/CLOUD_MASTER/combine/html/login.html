@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <title>Login</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+   <link rel="stylesheet" href="../css/navbar.css">
+
+  </head>
+  <body>
+    <div class="navbar-header">
+      <div class="fixed-logo"><a href="#"><img src="https://cwmi.s3.amazonaws.com/artwork-9.svg"></a></div>
+      <div class="menu-item">
+        <ul>
+          <li><a href="../index.html"class="menu-features">HOME</a></li>
+          <li><a href="../html/about.html"class="menu-templates">ABOUT</a></li>
+          <li><a href="../html/faq.html"class="menu-customers">FAQ</a></li>
+          <li><a target="blank" href="https://token.cloudwith.me/uploads/themepdf/en/cloud_ico_whitepaper.pdf"class="menu-pricing">WHITEPAPER</a></li>
+          <li><a href="../html/buycloud.html"class="menu-blog">BUY CLOUD</a></li>
+          <li><a href="html/login.html"class="menu-blog">LOGIN</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="fake-nav"></div>
+ <div class="bg-login"> 
+  <div class="square">
+    <div class="login-header">
+ 
+      <h2>Log in</h2>
+    </div>
+    <div class="container">
+
+      <form style="margin-left:0" class="form-horizontal">
+        <!-- username -->
+        <div class="form-group">
+          <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+          <div class="col-sm-10">
+            <input type="email" class="form-control" id="login-email" placeholder="Email Address">
+          </div>
+        </div>
+        <!-- password -->
+        <div class="form-group">
+          <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+          <div class="col-sm-10">
+            <input type="password" class="form-control" id="login-password" placeholder="Password">
+          </div>
+        </div>
+        <!-- Sign in Button -->
+        <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-10">
+            <button type="button" class="btn btn-success" id="login-btn">Log In</button>
+          </div>
+        </div>
+        <div class="direct-register">
+          <div style="margin-left: 24%">
+            <a href="../html/signup.html">Create an Account</a>
+            <a id="googleLog" href="#">Log in with Google</a>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
+    <script src="../javascript/login.js"></script>
+  </body>
+</html>

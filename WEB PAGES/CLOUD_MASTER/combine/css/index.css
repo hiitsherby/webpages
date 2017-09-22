@@ -1,0 +1,56 @@
+.top-banner{
+  width:100%;
+}
+.top-banner img{
+  width:400px;
+  height:auto;
+  margin: 10px auto;
+  text-align: center;
+  display: block;
+
+}
+
+.btn-black{
+  width:500px;
+  height:50px;
+  margin: 50px auto;
+  text-align: center;
+}
+.btn-black a{
+  padding: 25px 70px;
+  font-size: 20px;
+  background-color: #FBB03B;
+  text-align: center;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+.btn-black a:hover{
+background-color: #000;
+text-decoration: none;
+color: #FFF;
+cursor: pointer;
+}
+.profile img{
+  filter: grayscale(100%);
+  border-radius: 50%;
+  width:200px;
+  line-height: 200px;
+  display: block;
+  margin: 0 auto;
+}
+.profile h6{
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+}
+.profile p{
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+}
+.section{
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+  margin: 40px auto;
+}

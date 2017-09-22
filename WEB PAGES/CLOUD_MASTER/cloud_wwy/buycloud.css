@@ -1,0 +1,49 @@
+.box{
+	position:absolute;
+	width:60%;
+	margin-top:10%;
+	margin-left: 20%;
+	text-align:center;
+}
+h2, h3, h4, h5, li{
+  font-family:'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serifpx;
+  font-weight: lighter;
+  line-height: 160%;
+}
+
+h1{
+	font-family: 'Times New Roman';
+	font-weight: bold
+}
+.form-control{
+	width:45%;
+	height:70px;
+	margin-left: 28%;
+	border-radius: 0;
+	border-bottom: grey 1px solid;
+	border-right: transparent;
+	border-top: transparent;
+	border-left: transparent;
+	background-color: #f3f3f1;
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serifpx;
+}
+button{
+	width:25%;
+	height:30px;
+	float:right;
+	background-color: black;
+	color:white;
+	border:none;
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serifpx;
+	font-weight:lighter;
+}
+button:hover{
+	background-color: lightgrey;
+	color:black;
+}
+.canvas{
+	margin:2% 20% 20% 25%;
+}
+.imgs{
+	margin-left: 8%
+}
